@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificação de número</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="style.css">
     <script src="verificação.js"></script>
 </head>
+
 <body>
-    <div class="container">
-<input type="number" id="num" class="w3-input w3-border w3-round"  style="width:20%" width: 700px>
-<p></p>
-<button onclick="verifica();" class="button">Verificar</span></button>
-</div>
+    <form class="container">
+        <label class="titulo" for="input-num">Digite um número</label>
+        <input type="number" id="input-num" class="w3-input w3-border w3-round">
+        <button onclick="verifica();" class="button">Verificar</button>
+    </form>
 </body>
+
 </html>
