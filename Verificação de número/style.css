@@ -34,18 +34,18 @@ label {
   font-family: Yanone Kaffeesatz, monospace;
   font-size: 50px;
 }
-@media (min-width:400px){
-.container{
-  width: 95%;
+@media (max-width:414px){
+  .container{
+  width: 412px;
   }
 }
-@media (min-width:100%){
-.titulo{
-  text-align: center;
-  width: 50%;
+@media (max-width:414px){
+.button{
+  width: 400px;
 }
-@media (min-width:415px){
-  .button{
-    width: 40%;
-    }
+}
+@media (max-width:414px){
+  #input{
+    width: 400px;
+  }
   }
